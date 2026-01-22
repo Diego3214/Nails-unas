@@ -1,0 +1,96 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffe6f0;
+}
+
+header {
+    background-color: #ec4689;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #ec4689;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Estilo del formulario */
+
+form {
+    background-color: #fff0f5;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+}
+
+input, select {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ec4689;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #d13575;
+}
+
+#mensaje {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ec4689;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff69b4;
+    color: white;
+    margin-top: 20px;
+}

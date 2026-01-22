@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>NAILS DAMARIS</title>
+    <link rel="stylesheet" href="../static/Estilo.css">
+    
+</head>
+<body>
+<header>
+    <img src="https://i.pinimg.com/736x/33/b5/f3/33b5f3c33bda8461f2fd878adfcbd8f5.jpg" alt="300">
+    <h1>NAILS DAMARIS</h1>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#citas">Citas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section id="inicio">
+    <h2>BIENVENIDAS</h2>
+
+    <img src="https://i.pinimg.com/736x/4b/64/92/4b649283a398b1686d1d9b4cbf8a1cd1.jpg" alt="Diseño de uñas">
+    
+    <p>El espacio perfecto para resaltar la belleza de tus manos.</p>
+    <p>Creamos diseños unicos y cuidamos cada detalle para que tus uñas luzcan siempre increibles.</p>
+</section>
+
+<section id="servicios">
+    <h2>Nuestros Servicios 💅🏻</h2>
+    <ul>
+        <li>Shellac Liso $200</li>
+        <li>Shellac con diseño $230</li>
+        <li>Baño de acrilico $260</li>
+        <li>Uñas esculturales apartir de $280</li>
+        (dependiendo el tamaño y diseño)
+        <li>Retiro de shellac $60</li>
+        <li>Retiro de rubber $80</li>
+        <li>Retiro de acrilico $90</li>
+        <li>Tecnica balance rubber $250</li>
+        <li>Pedicure spa $350</li>
+        <li>Shellac pies liso $200</li>
+        <li>Shellac pies con diseño $230</li>
+        (Recuerda que el costo de esculturales es variable, segun el diseño, efecto y largo no lo olvides, tienen 1 semana de garantia)
+    </ul>
+</section>
+
+<section id="galeria">
+    <h2>Galería</h2>
+
+    <img src="https://supernails.mx/cdn/shop/files/042f3904f7fad3044dc835e06a6266d4_2400x.png?v=1756320038" alt="shellac liso">
+    <img src="https://media.istockphoto.com/id/1397672901/es/foto/una-manicura-ordenada-con-una-rama-de-árbol-de-navidad-cubierta-de-nieve-uñas-largas-y.jpg?s=1024x1024&w=is&k=20&c=Kd0F7Q9teVgka7WbGuCiBzK__YltutmtcSx36WEoVEQ=" alt="Shellac con Diseño">
+    <img src="https://vanitasespai.es/wp-content/uploads/2016/09/pedicura-spa-barcelona3.jpg" alt="Pedicure spa ">
+</section>
+
+<section id="citas">
+    <h2>Agenda tu cita</h2>
+
+    <form onsubmit="agendarCita(event)">
+        <label>Nombre:</label><br>
+        <input type="text" id="nombre" required><br><br>
+
+        <label>Servicio:</label><br>
+        <select id="servicio">
+            <option>Shellac Liso</option>
+            <option>Shellac con diseño</option>
+            <option>Baño de acrilico</option>
+            <option>Uñas esculturales</option>
+            <option>Uñas acrílicas</option>
+            <option>Retiro de shellac</option>
+            <option>Retiro de rubber</option>
+            <option>Tecnica balance rubber</option>
+            <option>Uñas acrílicas</option>
+            <option>Pedicure spa</option>
+            <option>Shellac pies liso</option>
+            <option>Shellac pies con diseño</option>
+        </select><br><br>
+
+        <label>Fecha:</label><br>
+        <input type="date" id="fecha" required><br><br>
+
+        <button type="submit">Agendar</button>
+    </form>
+
+    <p id="mensaje"></p>
+    
+    <img id="imagenConfirmacion" src="https://i.pinimg.com/736x/87/1e/1a/871e1af1a238191c3c9b86e1347380f9.jpg" width="250" style="display:none;">
+    
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Teléfono: 462-156-1138</p>
+    <p>Dirección: FRACCIONAMIENTO LOS CASTILLOS CALLE PEÑAFIEL 278-2 Irapuato, Guanajuato</p>
+</section>
+
+<footer>
+    <p>© 2025 NAILS DAMARIS</p>
+</footer>
+
+<script src="static/Scripts.js"></script>
+
+</body>
+</html>
